@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customers div {
+    flex: 1 24%;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.names {
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: solid black 1px;
+}
+
+.email {
+    text-transform: uppercase;
+    color: #DEDEDE;
+    margin-top: 0;
+}
+
+.phone {
+    margin-bottom: 5rem;
+}
+
+
+/*.customers p {
+    text-align: center;
+}*/
+
+.pic {
+    height: 17rem;
+}
