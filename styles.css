@@ -12,9 +12,12 @@ body {
 }
 
 .customers div {
-    flex: 1 24%;
+    flex: 1 1 24%;
     justify-content: center;
     text-transform: capitalize;
+    margin: 0 5px;
+    min-width: 150px;
+    max-width: 300px;
 }
 
 .names {
@@ -40,4 +43,5 @@ body {
 
 .pic {
     height: 17rem;
+    width: 100%;
 }
